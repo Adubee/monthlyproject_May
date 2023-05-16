@@ -1,0 +1,150 @@
+* {
+   padding: 0;
+   margin: 0;
+   color: #1a1f36;
+   box-sizing: border-box;
+   word-wrap: break-word;
+   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif;
+ }
+
+body{
+   min-height: 100%;
+   background-color: #eaeef6;
+}
+.container{
+   border: solid 0.18rem #7266d7;
+   width: 460px;
+   border-radius: 8px;
+   height: 550px;
+   margin: 60px auto;
+   position: relative;
+   background-color: #ffffff;
+}
+.img-container{
+   width: 300px;
+   box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3);
+   height: 200px;
+   margin: 14px auto;
+}
+.img-container img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+
+h1, h2{
+   margin: 1px 12px;
+   letter-spacing: -1px;
+}
+h1{
+   text-align: center;
+   font-size: 50px;
+   color: rgba(14, 14, 14, 0.82);
+}
+
+span{
+   font-weight: 400;
+   font-size: 23px;
+}
+
+
+button {
+   padding: 0.58rem 1.9rem;
+   /* border-color: ; */
+   background-color: #FFFFFF;
+   position: absolute;
+   bottom: 0.92rem;
+   left: 50%;
+   transform: translateX(-50%);
+   border: 0.18rem solid #7266d7;
+   border-radius: .30rem;
+   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+   box-sizing: border-box;
+   color: rgba(0, 0, 0, 0.85);
+   cursor: pointer;
+   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   justify-content: center;
+   line-height: 1.25;
+   min-height: 3rem;
+   /* padding: calc(.875rem - 1px) calc(1.5rem - 1px); */
+   text-decoration: none;
+   transition: all 250ms;
+   touch-action: manipulation;
+   vertical-align: baseline;
+   width: auto;
+}
+
+button:hover {
+  border-color: rgb(161, 152, 230);
+  box-shadow: #7266d7 0 4px 12px;
+  color: rgb(255, 254, 254);
+  background-color: #7266d7;
+}
+
+
+.center {
+   height: 40vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .wave {
+   width: 5px;
+   height: 110px;
+   background: black;
+   margin: 10px;
+   animation: wave 1s linear infinite;
+   border-radius: 20px;
+ }
+ .wave:nth-child(2) {
+   animation-delay: 0.1s;
+ }
+ .wave:nth-child(3) {
+   animation-delay: 0.2s;
+ }
+ .wave:nth-child(4) {
+   animation-delay: 0.3s;
+ }
+ .wave:nth-child(5) {
+   animation-delay: 0.4s;
+ }
+ .wave:nth-child(6) {
+   animation-delay: 0.5s;
+ }
+ .wave:nth-child(7) {
+   animation-delay: 0.6s;
+ }
+ .wave:nth-child(8) {
+   animation-delay: 0.7s;
+ }
+ .wave:nth-child(9) {
+   animation-delay: 0.8s;
+ }
+ .wave:nth-child(10) {
+   animation-delay: 0.9s;
+ }
+ 
+ @keyframes wave {
+   0% {
+     transform: scale(0);
+   }
+   50% {
+     transform: scale(1);
+   }
+   100% {
+     transform: scale(0);
+   }
+ }
+
+
+
+
+
+
+
+
+
+
+
